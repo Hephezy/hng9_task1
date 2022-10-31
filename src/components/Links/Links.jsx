@@ -11,7 +11,7 @@ const Links = () => {
            <a href='https://training.zuri.team' id='btn__zuri' target='_blank' rel="noreferrer">Zuri Team</a>
            <a href='http://books.zuri.team' id='books' target='_blank' rel="noreferrer">Zuri Books</a>
            <a href='https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>' id='book__python' target='_blank' rel="noreferrer">Python Books</a>
-           <a href='https://background.zuri.team' id='pitch' target='_blank' rel="noreferrer">Background Check for Coders</a>
+           <a href='https://background.zuri.team' id='pitch' target='_blank' rel="noreferrer">Coders Background Check</a>
            <a href='https://books.zuri.team/design_rules' id='book__design' target='_blank' rel="noreferrer">Design Books</a>
         </div>
         <div className='link-logo'>
