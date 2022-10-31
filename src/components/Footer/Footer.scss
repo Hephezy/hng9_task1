@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  div hr {
+    width:  90%;
+    opacity: 0.5;
+    margin: 4em auto;
+  }
+
+  .footer-link {
+    width: 90%;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5em;
+      color: #667085;
+    }
+
+    @media screen and (max-width: 1020px ) {
+        width: 90%;
+        margin: 4em auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: flex-start;
+    }
+  }
+}
